@@ -1,0 +1,18 @@
+{
+  "name": "obd-ii-tester",
+  "version": "0.1.0",
+  "description": "Basic generic OBD-II tester for OBDLink MX+ compatible ELM327/STN11xx adapters.",
+  "type": "module",
+  "bin": {
+    "obd-ii-tester": "./src/cli.js"
+  },
+  "scripts": {
+    "test": "node --test src/tests/*.test.js"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "optionalDependencies": {
+    "serialport": "^13.0.0"
+  }
+}
